@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Block navigation */
+.wpapper {
+    max-width: 1440px;
+    height: 4754px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    width: 1440px;
+    height: 149px;
+    background-color: aliceblue;
+}
+.navigation {
+    width: 374px;
+    height: 24px;
+}
+
+.nagigation-text {
+    height: 24px;
+    list-style-type: none;
+}
