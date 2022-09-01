@@ -16,14 +16,88 @@
 .header {
     width: 1440px;
     height: 149px;
+    padding-top: 40px;
     background-color: aliceblue;
 }
+.navigation-block {
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+}
 .navigation {
+    display: flex;
+    justify-content: space-between;
     width: 374px;
     height: 24px;
 }
-
 .nagigation-text {
     height: 24px;
+    width: 77px;
+    left: 100.19px;
+    top: 66px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
     list-style-type: none;
+}
+.planet {
+    width: 56px;
+    height: 56px;
+}
+.registration-group {
+    display: flex;
+    justify-content: space-between;
+    width: 292px;
+    height: 40px;
+}
+.search-size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #F3FBF8;
+    border-radius: 50%;
+}
+.search {
+    width: 18.76px;
+    height: 19.22px;
+}
+.basket-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #F3FBF8;
+    border-radius: 50%;
+}
+.basket {
+    width: 24px;
+    height: 24px;
+}
+/* .basket-buy {
+    width: 6.05px;
+    height: 6.05px;
+    background: #09A66D;
+    border-radius: 50%;
+} */
+.button {
+    width: 160px;
+    height: 40px;
+    background: #09A66D;
+    border-radius: 8px;
+    border: none;
+}
+.button-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
