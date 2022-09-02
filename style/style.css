@@ -80,12 +80,6 @@
     width: 24px;
     height: 24px;
 }
-/* .basket-buy {
-    width: 6.05px;
-    height: 6.05px;
-    background: #09A66D;
-    border-radius: 50%;
-} */
 .button {
     width: 160px;
     height: 40px;
@@ -100,4 +94,89 @@
     font-size: 18px;
     line-height: 20px;
     color: #FFFFFF;
+}
+
+/* Block main */
+.main {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 850px;
+    background: #F3FBF8;
+}
+.fresh {
+    width: 612px;
+    height: 408px;
+    margin-left: -60.72px;
+    margin-top: -37.03px;
+}
+.main-slogan {
+    position: absolute;
+    height: 90px;
+    top: 92.97px;
+    left: 328.5px;
+    align-items: center;
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+}
+.main-text {
+    position: absolute;
+    width: 637.01px;
+    height: 90px;
+    top: 202.97px;
+    left: 401.49px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+}
+.main-order {
+    position: absolute;
+    width: 92px;
+    height: 30px;
+    left: 632px;
+    top: 349.97px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222222;
+}
+.main-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    top: 332.97px;
+    left: 744px;
+    border-radius: 50px;
+    border: none;
+    background: #09A66D;
+}
+.main-arrow {
+    width: 32px;
+    height: 0px;
+    left: 760px;
+    top: 513.97px;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.main-arrow-link {
+    width: 13px;
+    height: 13px;
+    margin-left: -10px;
+    border-right: 4px solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+    transform: rotate(-45deg);
 }
