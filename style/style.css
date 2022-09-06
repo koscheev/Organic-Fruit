@@ -17,7 +17,6 @@
     width: 1440px;
     height: 149px;
     padding-top: 40px;
-    background-color: aliceblue;
 }
 .navigation-block {
     display: flex;
@@ -150,6 +149,7 @@
     line-height: 30px;
     text-align: center;
     color: #222222;
+    z-index: 1;
 }
 .main-button {
     position: absolute;
@@ -163,6 +163,7 @@
     border-radius: 50px;
     border: none;
     background: #09A66D;
+    z-index: 1;
 }
 .main-arrow {
     width: 32px;
@@ -179,4 +180,87 @@
     border-right: 4px solid #FFFFFF;
     border-bottom: 4px solid #FFFFFF;
     transform: rotate(-45deg);
+}
+.fruits-vegetables {
+    position: absolute;
+    width: 862.18px;
+    height: 465.52px;
+    left: 120.19px;
+    top: 351.6px;
+}
+.block-right {
+    position: absolute;
+    width: 250px;
+    height: 116px;
+    left: 1090px;
+    top: 392px;
+    background: #FFFFFF;
+}
+.block-right-small {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    width: 171px;
+    height: 82px;
+    margin-left: 33px;
+    margin-top: 17px;
+}
+.block-right-circle {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background: #F3FBF8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.avatar-top {
+    width: 16.62px;
+    height: 16.62px;
+    border-radius: 50px;
+    background: #09A66D;
+}
+.avatar-botton {
+    width: 28.64px;
+    height: 14.79px;
+}
+.block-right-digits {
+    width: 90px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+.block-right-text {
+    width: 91px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.block-right-reviews {
+    top: 538px;
+}
+.block-right-items {
+    top: 684px;
+}
+.star {
+    width: 32px;
+    height: 30.53px;
+    /* background: #FED42D; */
+}
+.fruits {
+    width: 29px;
+    height: 29px;
 }
