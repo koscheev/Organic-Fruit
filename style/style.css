@@ -258,9 +258,123 @@
 .star {
     width: 32px;
     height: 30.53px;
-    /* background: #FED42D; */
 }
 .fruits {
     width: 29px;
     height: 29px;
+}
+.activity {
+    position: relative;
+    height: 1065px;
+    background-color: antiquewhite;
+}
+.activity-slogan {
+    position: absolute;
+    height: 90px;
+    margin-top: 140.89px;
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+}
+.activity-text {
+    position: absolute;
+    width: 637.01px;
+    margin-top: 250.89px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.activity-block {
+    position: absolute;
+    width: 500px;
+    height: 160px;
+    top: 536.89px;
+    background-color: #F3FBF8;
+}
+.activity-block-top {
+    top: 356.89px;
+    background-color: #FFFFFF;
+}
+.activity-block-middle {
+    background-color: #FFFFFF;
+}
+.activity-block-bottom {
+    top: 716.89px;
+    background-color: #FFFFFF;
+}
+.activity-block-circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    left: 59.28px;
+    top: 40px;
+    border-radius: 50px;
+    /* background: #F3FBF8 */
+}
+.activity-block-circle-background {
+    background: #F3FBF8
+}
+.delivery {
+    width: 40px;
+    height: 37.81px;
+}
+.menu {
+    width: 27.73px;
+    height: 40px;
+}
+.clock {
+    width: 40px;
+    height: 40px;
+}
+.activity-block-slogan {
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    top: 41px;
+    left: 163.28px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222
+}
+.activity-block-text {
+    position: absolute;
+    width: 277.45px;
+    height: 40px;
+    left: 163.28px;
+    top: 79px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.activity-product {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 740.19px;
+    top: 318.89px;
+    border-radius: 300px;
+    /* border-radius: 41px; */
+    /* border: 37px; */
+    /* background: linear-gradient(#FFFFFF00 #09A66D); */
+    background: #eee7e7;
+    border-width: 37px;
+    /* border: linear-gradient(#FFFFFF00 #09A66D); */
+    /* border-color: linear-gradient(#FFFFFF00 #09A66D); */
+    border-color: #555555;
 }
