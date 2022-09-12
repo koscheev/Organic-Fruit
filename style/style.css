@@ -266,7 +266,7 @@
 .activity {
     position: relative;
     height: 1065px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 .activity-slogan {
     position: absolute;
@@ -361,20 +361,53 @@
     line-height: 20px;
     color: #555555;
 }
-.activity-product {
+.activity-product-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     position: absolute;
     width: 600px;
     height: 600px;
     left: 740.19px;
     top: 318.89px;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, #FFFFFF00, #09A66D) border-box;
+    border: 41px solid transparent;
     border-radius: 300px;
-    /* border-radius: 41px; */
-    /* border: 37px; */
-    /* background: linear-gradient(#FFFFFF00 #09A66D); */
-    background: #eee7e7;
-    border-width: 37px;
-    /* border: linear-gradient(#FFFFFF00 #09A66D); */
-    /* border-color: linear-gradient(#FFFFFF00 #09A66D); */
-    border-color: #555555;
+}
+.activity-product-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 210px;
+    /* left: 90px;
+    top: 90px; */
+    background: #09A66D;
+}
+.activity-product-line {
+    position: absolute;
+    width: 38.17px;
+    height: 420px;
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+}
+.activity-product-line-rotate {
+    transform: rotate(-135deg);
+}
+.activity-product-basket {
+    position: absolute;
+    width: 371.85px;
+    height: 411.14px;
+    bottom: 76.86px;
+}
+.activity-line {
+    position: absolute;
+    width: 944px;
+    height: 531.73px;
+    left: 461.47px;
+    bottom: 566.15px;
+    z-index: -2;
 }
