@@ -168,8 +168,6 @@
 .main-arrow {
     width: 32px;
     height: 0px;
-    left: 760px;
-    top: 513.97px;
     border: 2px solid #FFFFFF;
     background-color: #FFFFFF;
 }
@@ -263,10 +261,11 @@
     width: 29px;
     height: 29px;
 }
+
+/* Block activity */
 .activity {
     position: relative;
     height: 1065px;
-    /* background-color: antiquewhite; */
 }
 .activity-slogan {
     position: absolute;
@@ -318,7 +317,6 @@
     left: 59.28px;
     top: 40px;
     border-radius: 50px;
-    /* background: #F3FBF8 */
 }
 .activity-block-circle-background {
     background: #F3FBF8
@@ -410,4 +408,101 @@
     left: 461.47px;
     bottom: 566.15px;
     z-index: -2;
+}
+.activity-main-button {
+    left: 309.44px;
+    top: 886.89px;
+    background: transparent;
+    transform: rotate(90deg);
+}
+.activity-main-arrow {
+    border: 2px solid #09A66D;
+    background-color: #09A66D;
+}
+.activity-main-arrow-link {
+    border-right: 4px solid #09A66D;
+    border-bottom: 4px solid #09A66D;
+}
+
+/* Block products */
+/* .products {
+    position: absolute;
+    width: 1440px;
+    height: 832px;
+    background: #09A66D0D 5%;
+}
+.products-block {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 88.76px;
+    background: #b4f4dd 5%;
+}
+.products-block-top-right {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 78px;
+    top: 70px;
+    background: #FFFFFF;
+    transform: rotate(30deg);
+}
+.products-block-top-right-img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: url(/img/Cucumber.svg) no-repeat;
+} */
+
+/* About use */
+.reviews {
+    position: relative;
+    height: 1423px;
+    background-color: antiquewhite;
+}
+.reviews-slogan {
+    position: absolute;
+    width: 640px;
+    height: 180px;
+    top: 96px;
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+}
+.reviews-text {
+    position: absolute;
+    width: 586.26px;
+    height: 180px;
+    top: 306px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.reviews-name {
+    position: absolute;
+    width: 203px;
+    height: 36px;
+    top: 526px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+.reviews-star {
+    margin-top: 20.48px;
+    width: 22.02px;
+    height: 20.94px;
+    top: 582.48px;
+}
+.reviews-star-margin {
+    margin-left: 32.41px;
 }
