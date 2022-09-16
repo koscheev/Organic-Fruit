@@ -458,8 +458,7 @@
 /* About use */
 .reviews {
     position: relative;
-    height: 1423px;
-    background-color: antiquewhite;
+    height: 750px;
 }
 .reviews-slogan {
     position: absolute;
@@ -498,11 +497,109 @@
     color: #222222;
 }
 .reviews-star {
-    margin-top: 20.48px;
+    margin-top: 582.48px;
     width: 22.02px;
     height: 20.94px;
     top: 582.48px;
 }
 .reviews-star-margin {
-    margin-left: 32.41px;
+    margin-left: 10.39px;
+}
+.reviews-arrow-left {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 56px;
+    height: 56px;
+    left: 427.4px;
+    top: 565.58px;
+    border-radius: 50px;
+    border: 1px solid #CCCCCC;
+}
+.reviews-arrow-left:hover {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 56px;
+    height: 56px;
+    left: 427.4px;
+    top: 565.58px;
+    border-radius: 50px;
+    border: 1px solid #09A66D;
+    background-color: #09A66D;
+}
+.reviews-arrow-link-left {
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+    border-right: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+}
+.reviews-arrow-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 56px;
+    height: 56px;
+    left: 509.8px;
+    top: 565.58px;
+    border-radius: 50px;
+    border: 1px solid #CCCCCC;
+}
+.reviews-arrow-right:hover {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 56px;
+    height: 56px;
+    left: 509.8px;
+    top: 565.58px;
+    border-radius: 50px;
+    border: 1px solid #09A66D;
+    background-color: #09A66D;
+}
+.reviews-arrow-link-right {
+    width: 11px;
+    height: 11px;
+    transform: rotate(-45deg);
+    border-right: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+}
+.reviews-avatar {
+    position: absolute;
+    width: 446.9px;
+    height: 444.82px;
+    left: 866.55px;
+    top: 157px;
+    border-radius: 250px;
+}
+.contact {
+    position: absolute;
+    width: 1440px;
+    height: 435px;
+    background-color: #F3FBF8;
+}
+.contact-planet-block {
+    width: 345.36px;
+    height: 250px;
+    margin-top: 66.79px;
+}
+.contact-text {
+    width: 345.36px;
+    height: 150px;
+    margin-top: 29.93px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.contact-navigation {
+    width: 120px;
+    height: 188.69px;
 }
