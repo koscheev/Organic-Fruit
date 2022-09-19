@@ -298,7 +298,7 @@
 }
 .activity-block-top {
     top: 356.89px;
-    background-color: #FFFFFF;
+    background-color: transparent;
 }
 .activity-block-middle {
     background-color: #FFFFFF;
@@ -600,6 +600,49 @@
     color: #555555;
 }
 .contact-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 120px;
     height: 188.69px;
+    margin-top: 105.79px;
+    list-style-type: none;
+}
+.contact-resources {
+    width: 118px;
+    height: 188.69px;
+}
+.contact-contact {
+    width: 215px;
+    height: 146px;
+}
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-navigation-slogan {
+    width: 120px;
+    height: 31px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+.contact-navigation-li {
+    width: 77px;
+    height: 23px;
+    left: 602.37px;
+    top: 4495.79px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #555555;
+}
+.navigation-li-margin {
+    margin-top: 25px;
 }
