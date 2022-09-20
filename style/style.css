@@ -577,16 +577,41 @@
     top: 157px;
     border-radius: 250px;
 }
+
+/* Contact */
 .contact {
     position: absolute;
     width: 1440px;
     height: 435px;
     background-color: #F3FBF8;
 }
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+}
 .contact-planet-block {
     width: 345.36px;
     height: 250px;
     margin-top: 66.79px;
+}
+.contact-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120px;
+    height: 188.69px;
+    margin-top: 105.79px;
+    list-style-type: none;
+}
+.contact-slogan {
+    width: 215px;
+    height: 31px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
 }
 .contact-text {
     width: 345.36px;
@@ -599,40 +624,45 @@
     line-height: 30px;
     color: #555555;
 }
-.contact-navigation {
+.contact-resources {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 120px;
+    width: 118px;
     height: 188.69px;
     margin-top: 105.79px;
     list-style-type: none;
 }
-.contact-resources {
-    width: 118px;
-    height: 188.69px;
-}
 .contact-contact {
-    width: 215px;
-    height: 146px;
-}
-.container-contact {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-
-}
-.contact-navigation-slogan {
-    width: 120px;
+    width: 215px;
     height: 31px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 31px;
-    color: #222222;
+    margin-top: 105.79px;
+    list-style-type: none;
 }
+.social-icons-facebook {
+    width: 12px;
+    height: 24px;
+    background: #222222;
+}
+.social-icons-twitter {
+    width: 24px;
+    height: 19.5px;
+    background: #222222;
+}
+.social-icons-twitter {
+    width: 24px;
+    height: 24px;
+    background: #222222;
+}
+
+
+
+
 .contact-navigation-li {
-    width: 77px;
+    width: 215px;
     height: 23px;
     left: 602.37px;
     top: 4495.79px;
