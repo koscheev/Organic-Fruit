@@ -638,29 +638,29 @@
     flex-direction: column;
     justify-content: space-between;
     width: 215px;
-    height: 31px;
+    height: 188.69px;
     margin-top: 105.79px;
     list-style-type: none;
+}
+.social-icons-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 172px;
+    height: 24px;
 }
 .social-icons-facebook {
     width: 12px;
     height: 24px;
-    background: #222222;
 }
 .social-icons-twitter {
     width: 24px;
     height: 19.5px;
-    background: #222222;
 }
-.social-icons-twitter {
+.social-icons-instagram {
     width: 24px;
     height: 24px;
-    background: #222222;
 }
-
-
-
-
 .contact-navigation-li {
     width: 215px;
     height: 23px;
